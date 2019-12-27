@@ -15,6 +15,14 @@ h2 {
     font-size: 30px;
 }
 
-p {
-    text-align: justify; /* Justifying Text*/
+.main-text{ /* We use . for classes */
+    text-align: justify;
+}
+
+/*author-text{  We use # for id´s 
+    font-size: 22px;
+}*/
+
+.author-text{ 
+    font-size: 22px;
 }

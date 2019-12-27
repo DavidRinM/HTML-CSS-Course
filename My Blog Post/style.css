@@ -23,6 +23,12 @@
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
+}
+
+.blog-post img{
+    height: 150px;
+    width: auto;
 }
 
 .other-posts{
@@ -30,10 +36,26 @@
     float: left;
     padding-left: 30px;
 }
+.other{
+    margin-bottom: 40px;
+}
 
 .author-box{
     border-top: 2px solid #808080;
     padding-top: 20px;
+}
+
+.author-box img{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    float: left;
+}
+
+.date{
+    position: absolute;
+    top: 10px;
+    right: 30px;
 }
 
 .main-text{ /* We use . for classes */
@@ -47,11 +69,9 @@
 
 .author-text{ 
     font-size: 22px;
-}
-
-#author-photo{
-    width: 25%;
-    height: 25%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 body {

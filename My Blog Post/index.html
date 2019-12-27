@@ -4,47 +4,61 @@
         <title>My First Blog Post</title>
         <link rel="stylesheet" type = "text/css" href="style.css"> <!-- Linking the two files for the HTML doc -->
     </head>
+
     <body>
-        <h1>My First Blog Post</h1>
-        <h2>This is my First Blog</h2>
-        <p class="main-text">
-            <!--This is a very <strong>strong</strong> text, caus it is <strong>bold</strong>
-            I would like to <em>emphasize</em> how important it is to follow this course till the end
-            This is some <u>underlined</u> text. <br>-->
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-            Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim.<br>
-            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-            rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.<br>
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-        </p>
+        <div class="container">
+            <div class="blog-post">
+                <h1>My First Blog Post</h1>
+                <h2>This is my First Blog</h2>
+                <p class="main-text">
+                    <!--This is a very <strong>strong</strong> text, caus it is <strong>bold</strong>
+                    I would like to <em>emphasize</em> how important it is to follow this course till the end
+                    This is some <u>underlined</u> text. <br>-->
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                    Nulla consequat massa quis enim.<br>
+                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                    Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                    Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.<br>
+                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                </p>
+        
+                <img src="logo.jpg" alt="The HTML file logo">
+        
+                <a href="http://www.udemy.com" target="_blank">Udemy´s Website</a><!-- target attribute is to open in other tab -->
+        
+                <a href="logo.jpg" target="_blank">HTML logo</a>
+                <h2>HTML is Amazing</h2>
+                <p class="main-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+                    Nulla consequat massa quis enim.
+                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                    Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                    Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                    Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                </p>
+            </div>
 
-        <img src="logo.jpg" alt="The HTML file logo">
+            <div class="other-posts">
+                Dummy Text                
+            </div>
 
-        <a href="http://www.udemy.com" target="_blank">Udemy´s Website</a><!-- target attribute is to open in other tab -->
+            <div class="clearfix"></div>
 
-        <a href="logo.jpg" target="_blank">HTML logo</a>
-        <h2>HTML is Amazing</h2>
-        <p class="main-text">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-            Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim.
-            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
-            rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-        </p>
-        <img src="author.png" alt="Author photo">
-
-        <p class="author-text">David Rincon</p>
+            <div class="author-box">
+                <img src="author.png" alt="Author photo" id="author-photo">
+    
+                <p class="author-text">David Rincon</p>
+            </div>
+        </div>
     </body>
 </html>

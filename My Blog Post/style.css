@@ -4,6 +4,56 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 1140px;
+    /*
+    margin-left: auto;  Margin´s are adjusted auto by the context 
+    margin-right: auto;
+    margin-top: 20px;*/
+    margin: 20px auto 0 auto; /* top right bottom left*/
+}
+
+.blog-post{
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+}
+
+.other-posts{
+    width: 25%;
+    float: left;
+    padding-left: 30px;
+}
+
+.author-box{
+    border-top: 2px solid #808080;
+    padding-top: 20px;
+}
+
+.main-text{ /* We use . for classes */
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/*author-text{  We use # for id´s 
+    font-size: 22px;
+}*/
+
+.author-text{ 
+    font-size: 22px;
+}
+
+#author-photo{
+    width: 25%;
+    height: 25%;
+}
+
 body {
     font-family: helvetica Neue, Arial; /* First Choice Helvetica, Second Choice Arial */
     font-size: 20px;
@@ -21,17 +71,4 @@ h1 {
 h2 {
     font-size: 30px;
     margin-bottom: 10px;
-}
-
-.main-text{ /* We use . for classes */
-    text-align: justify;
-    margin-bottom: 20px;
-}
-
-/*author-text{  We use # for id´s 
-    font-size: 22px;
-}*/
-
-.author-text{ 
-    font-size: 22px;
 }

@@ -1,3 +1,9 @@
+*{ /* All elements are affected */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: helvetica Neue, Arial; /* First Choice Helvetica, Second Choice Arial */
     font-size: 20px;
@@ -9,14 +15,17 @@ h1, h2{
 
 h1 {
     font-size: 45px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .main-text{ /* We use . for classes */
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 /*author-text{  We use # for id´s 
